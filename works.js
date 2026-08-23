@@ -110,6 +110,48 @@
     ensure();
   }
 
+  function addJumpButton() {
+    if (document.getElementById("works-jump")) return;
+    var btn = document.createElement("a");
+    btn.id = "works-jump";
+    btn.href = "#work";
+    btn.textContent = "View Works \u2193";
+    btn.addEventListener("click", function (e) {
+      e.preventDefault();
+      var w = document.getElementById("work");
+      if (w) {
+        try { w.scrollIntoView({ behavior: "smooth", block: "start" }); }
+        catch (err) { w.scrollIntoView(); }
+      }
+    });
+    document.body.appendChild(btn);
+  }
+
+  function initDiag() {
+    if (location.search.indexOf("diag=1") < 0) return;
+    if (document.getElementById("diag")) return;
+    window.__diagErrors = window.__diagErrors || [];
+    window.addEventListener("error", function (e) { window.__diagErrors.push(e.message); renderDiag(); });
+    var panel = document.createElement("div");
+    panel.id = "diag";
+    panel.style.cssText = "position:fixed;left:8px;bottom:8px;z-index:2147483647;background:#111;color:#0f0;font:11px/1.5 monospace;padding:10px;max-width:92vw;white-space:pre-wrap;word-break:break-all;";
+    document.body.appendChild(panel);
+    function renderDiag() {
+      var work = document.getElementById("work");
+      panel.textContent =
+        "UA: " + navigator.userAgent.slice(0, 90) + "\n" +
+        "innerH: " + window.innerHeight + "\n" +
+        "scrollH: " + document.documentElement.scrollHeight + "\n" +
+        "workH: " + (work ? work.offsetHeight : "NA") + "\n" +
+        "wheelCards: " + document.querySelectorAll(".wheel-card").length + "\n" +
+        "css: " + Array.prototype.map.call(document.querySelectorAll('link[rel="stylesheet"]'), function (l) { return l.getAttribute("href"); }).join(",") + "\n" +
+        "errors: " + (window.__diagErrors.length ? window.__diagErrors.join(" ; ") : "none");
+    }
+    window.renderDiag = renderDiag;
+    renderDiag();
+    setInterval(renderDiag, 1500);
+  }
+
   function build(works) {
     var workEl = document.getElementById("work");
     if (!workEl || !works) return;
@@ -156,6 +198,8 @@
     if (dots) dots.style.display = "none";
     render();
     bind();
+    addJumpButton();
+    initDiag();
   }
 
   function bind() {
@@ -229,5 +273,10 @@
   }
 
   fetch("works.json").then(function (r) { return r.json(); }).then(build)
-    .catch(function () { /* keep existing content if works.json is missing */ });
+    .catch(function (e) {
+      var workEl = document.getElementById("work");
+      if (workEl) workEl.innerHTML = '<div class="works-page"><p class="works-about">Works failed to load (works.json missing?)</p></div>';
+      addJumpButton();
+      initDiag();
+    });
 })();
