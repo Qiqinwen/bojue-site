@@ -36,7 +36,7 @@
         'color:var(--ui-text,currentColor);text-decoration:none;' +
       '}' +
       'site-logo .site-logo__asset{' +
-        'display:block;width:clamp(24px,2.6vw,34px);height:auto;flex:none;' +
+        'display:block;width:clamp(36px,4.2vw,54px);height:auto;flex:none;' +
       '}' +
       'site-logo .site-logo__asset--light{display:none;}' +
       'html[data-theme="dark"] site-logo .site-logo__asset--dark,' +
