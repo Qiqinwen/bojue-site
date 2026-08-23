@@ -163,6 +163,17 @@
     metaIndex = document.getElementById("wheelIndex");
     metaCat = document.getElementById("wheelCat");
 
+    var dots = document.getElementById("workDots");
+    if (dots) dots.style.display = "none";
+    render();
+    bind();
+    initDiag();
+    syncRemote();
+  }
+
+  function renderCards() {
+    if (!cardsEl) return;
+    cardsEl.innerHTML = "";
     items.forEach(function (it) {
       var card = document.createElement("div");
       card.className = "wheel-card";
@@ -176,12 +187,54 @@
         "</a>";
       cardsEl.appendChild(card);
     });
+  }
 
-    var dots = document.getElementById("workDots");
-    if (dots) dots.style.display = "none";
-    render();
-    bind();
-    initDiag();
+  function resizeRemote(url, size) {
+    return url + "?x-oss-process=image/resize,m_mfit,h_" + size + ",w_" + size + ",limit_0/crop,w_" + size + ",h_" + size + ",g_center";
+  }
+
+  function syncRemote() {
+    // Live sync: Manbo's public profile API allows cross-origin reads, so new
+    // dramas/records published on the account appear here automatically.
+    fetch("https://manbo.kilaaudio.com/Tg/personalH5?uid=3684994445375", { cache: "no-store" })
+      .then(function (r) { if (!r.ok) throw new Error("status " + r.status); return r.json(); })
+      .then(function (j) {
+        var d = (j && j.data) || {};
+        var uw = d.userWorkResp || {};
+        var byId = {};
+        items.forEach(function (it) { byId[it.id] = it; });
+        function makeRemoteItem(it, cat) {
+          var r = it.radioDramaResp;
+          var id = r.radioDramaIdStr;
+          if (byId[id]) return byId[id];
+          var src = resizeRemote(r.coverPic, 400);
+          return {
+            id: id,
+            title: r.title,
+            cover: src,
+            srcCover: src,
+            tags: (r.categoryLabels || []).map(function (l) { return l.name; }).slice(0, 4),
+            studio: r.ownerResp ? r.ownerResp.nickname : "",
+            playUrl: "https://manbo.hongdoulive.com/Activecard/radioplay?id=" + id,
+            cat: cat
+          };
+        }
+        var apiDramas = ((uw.radioDramaWorks && uw.radioDramaWorks.radioDramas) || []).map(function (it) { return makeRemoteItem(it, "Radio Drama"); });
+        var apiRecords = ((uw.recordWorks && uw.recordWorks.records) || []).map(function (it) { return makeRemoteItem(it, "Record"); });
+        var merged = apiDramas.concat(apiRecords);
+        var apiIds = {};
+        merged.forEach(function (it) { apiIds[it.id] = true; });
+        items.forEach(function (it) { if (!apiIds[it.id]) merged.push(it); });
+        var same = merged.length === items.length && merged.every(function (m, i) { return m === items[i]; });
+        if (same) return;
+        items = merged;
+        index = clamp(index, 0, items.length - 1);
+        visual = index;
+        velocity = 0;
+        renderCards();
+        render();
+      })
+      .catch(function () { /* Manbo API unreachable — keep the local snapshot */ });
   }
 
   function bind() {
