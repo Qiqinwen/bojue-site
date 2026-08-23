@@ -115,6 +115,14 @@
 .group-card__sub { font: 400 12px/1.4 var(--font-body, "Noto Sans", sans-serif); color: var(--color-text-muted, #948c82); margin-top: 4px; display: block; }
 
 .site-footer a { pointer-events: auto; color: inherit; }
+.site-footer__credit {
+  display: block;
+  margin-top: 4px;
+  font-size: 10px;
+  line-height: 1.4;
+  opacity: 0.62;
+  letter-spacing: 0.02em;
+}
 
 /* The template's scroll-snap fights the works gallery on mobile (some browsers
  * treat even proximity as mandatory). Disable it completely for free scrolling. */
