@@ -125,6 +125,16 @@
 }
 
 .ui header, .ui footer { pointer-events: auto; }
+.site-footer__socials {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 2px;
+}
+.site-footer__socials .site-footer__dot { opacity: 0.5; }
+.site-footer__socials a { text-decoration: none; border-bottom: 1px solid currentColor; }
+.site-footer__socials a:hover { opacity: 1; }
+
 
 /* The template's scroll-snap fights the works gallery on mobile (some browsers
  * treat even proximity as mandatory). Disable it completely for free scrolling. */
