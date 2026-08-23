@@ -31,13 +31,13 @@
 <script src="site-logo.js?v=20260814b"></script>
 <script src="site-xmark.js?v=20260720a"></script>
 <!-- Light/dark theme system (sets data-theme pre-paint, owns the dark tokens + sun/moon toggle) -->
-<script src="theme.js?v=20260816a"></script>
+<script src="theme.js?v=20260816b"></script>
 <!-- Shared low-power liquid loader: used by the boot splash and case-study window. -->
 <script src="liquid-loader.js?v=20260813a"></script>
 <script src="landing-liquid.js?v=20260815a" defer></script>
 <script src="case/dim-media.js?v=20260814a" defer></script>
 <script src="phone-mockup.js?v=20260816a" defer></script>
-<link rel="stylesheet" href="works.css?v=5">
+<link rel="stylesheet" href="works.css?v=6">
 <style>
   :root {
     --ui-text: rgba(67, 60, 52, 0.90);
@@ -434,7 +434,7 @@
   }
 
   /* ---------------- 滚动内容:作品区(整屏分页) ---------------- */
-  html { scroll-snap-type: y mandatory; overflow-x: hidden; }
+  html { scroll-snap-type: none; overflow-x: clip; }
   .page { position: relative; z-index: 1; pointer-events: none; }
   .hero-space { height: 100vh; height: 100lvh; pointer-events: none; scroll-snap-align: start; }
 
