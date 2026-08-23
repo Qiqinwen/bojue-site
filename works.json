@@ -1,0 +1,390 @@
+{
+  "profileUrl": "https://manbo.kilaaudio.com/index/roomuser/uid/bt7yEKyMkgvxjfTGv6XTj6AxdUnYcAMTCyODkLmEgBMck4VLZtbcFKMvnGbY2ErcKp9QFtO8v9IK6krzkiG9wQ==",
+  "profile": {
+    "name": "被电臀电晕了",
+    "tagline": "误入凡间的草履虫",
+    "soundRay": "温柔学长",
+    "intro": "A noble spirit, swift as the wind.\nRadio drama lover on Manbo.",
+    "level": 14,
+    "constellation": "摩羯座",
+    "height": 185,
+    "followers": 9,
+    "following": 3,
+    "diamonds": "0",
+    "avatar": "",
+    "cover": "images/works/avatar.png"
+  },
+  "dramas": [
+    {
+      "id": "2252338707795279988",
+      "title": "钦点的老婆异能无敌",
+      "cover": "images/works/d-2252338707795279988.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1786687476309891.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "全一期",
+        "原创",
+        "架空"
+      ],
+      "studio": "七宝月晗工作室"
+    },
+    {
+      "id": "2242428156659106041",
+      "title": "海岛没有风",
+      "cover": "images/works/d-2242428156659106041.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1784379625393205.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全一期",
+        "原创",
+        "现代",
+        "治愈"
+      ],
+      "studio": "龙猫的家"
+    },
+    {
+      "id": "2216403291955265690",
+      "title": "相皎洁",
+      "cover": "images/works/d-2216403291955265690.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1778320608710652.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全年龄",
+        "未来",
+        "原创"
+      ],
+      "studio": "桉桉不是安安-scc7000"
+    },
+    {
+      "id": "2082851477159674148",
+      "title": "有狐",
+      "cover": "images/works/d-2082851477159674148.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1747226446635412.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "前世今生"
+      ],
+      "studio": "浪子江湖配音社LZJH"
+    },
+    {
+      "id": "2229651724170166370",
+      "title": "《无相宗学术造假事件》",
+      "cover": "images/works/d-2229651724170166370.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1781794096413556.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全年龄",
+        "全一期",
+        "重生"
+      ],
+      "studio": "音纪SoundEra"
+    },
+    {
+      "id": "2220569268498464892",
+      "title": "飞鸟与蝉",
+      "cover": "images/works/d-2220569268498464892.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1779291656282198.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "现代"
+      ],
+      "studio": "知醒"
+    },
+    {
+      "id": "2219275641528778829",
+      "title": "两清双面",
+      "cover": "images/works/d-2219275641528778829.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1778989797810204.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "全一期",
+        "BE"
+      ],
+      "studio": "Winter黎霜"
+    },
+    {
+      "id": "2218867692650102815",
+      "title": "古风歌曲合集",
+      "cover": "images/works/d-2218867692650102815.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1778895587356615.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全年龄",
+        "原创",
+        "BE",
+        "HE"
+      ],
+      "studio": "桉桉不是安安-scc7000"
+    },
+    {
+      "id": "2089325990034538627",
+      "title": "终于落日之前",
+      "cover": "images/works/d-2089325990034538627.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1771559080057591.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "橘气",
+        "BE",
+        "现代"
+      ],
+      "studio": "桉桉不是安安-scc7000"
+    },
+    {
+      "id": "2203340196169121971",
+      "title": "我喜欢过的一个女生",
+      "cover": "images/works/d-2203340196169121971.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1775279095713589.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全一期",
+        "言情",
+        "BE",
+        "现代"
+      ],
+      "studio": "【时光聆声】工作室"
+    },
+    {
+      "id": "2196029779579240652",
+      "title": "活佛",
+      "cover": "images/works/d-2196029779579240652.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/8d7ecea74158c76d694a6ba91f6594f3.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "全一期"
+      ],
+      "studio": "尘江月落工作室"
+    },
+    {
+      "id": "2178946418310381630",
+      "title": "薛定谔的恋人",
+      "cover": "images/works/d-2178946418310381630.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1769599871486516.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "全年龄",
+        "全一期",
+        "原创",
+        "现代"
+      ],
+      "studio": "撒星星工作室"
+    },
+    {
+      "id": "2049095340610552211",
+      "title": "长了猫尾巴后被男神舍友发现了",
+      "cover": "images/works/d-2049095340610552211.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1739370587179315.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "HE",
+        "校园",
+        "甜宠"
+      ],
+      "studio": "醉声工作室"
+    }
+  ],
+  "records": [
+    {
+      "id": "2218868130736767018",
+      "title": "古风专辑",
+      "cover": "images/works/r-2218868130736767018.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1778895634505375.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "广播剧OST",
+        "原创音乐",
+        "古风歌曲"
+      ],
+      "studio": "桉桉不是安安-scc7000"
+    },
+    {
+      "id": "2198172616072626331",
+      "title": "混沌慈",
+      "cover": "images/works/r-2198172616072626331.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1774077018677177.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "翻唱"
+      ],
+      "studio": "尘江月落工作室"
+    }
+  ],
+  "favorites": [
+    {
+      "id": "1503862835954843733",
+      "title": "不要叫我甲方爸爸，叫我甲方哥哥",
+      "cover": "images/works/f-1503862835954843733.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1706766989099878.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "甜宠",
+        "现代",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "1723356203314053159",
+      "title": "被我渣过的前任他暴富了·第一季",
+      "cover": "images/works/f-1723356203314053159.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1706766896862519.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "破镜重圆",
+        "现代",
+        "HE",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "2195128381907927121",
+      "title": "吞雨",
+      "cover": "images/works/f-2195128381907927121.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1773722686331608.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "有声书",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "1917264411836285054",
+      "title": "梦里相遇（广播剧《向导是不是重生的》第二季主题曲）",
+      "cover": "images/works/f-1917264411836285054.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/d21d30fc6c1e95fe740291be98424f10.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": []
+    },
+    {
+      "id": "2069873254222266552",
+      "title": "逐云墓场",
+      "cover": "images/works/f-2069873254222266552.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1770906736245746.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "有声书",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "1682721779719602251",
+      "title": "邪门的爱情出现了",
+      "cover": "images/works/f-1682721779719602251.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1701084635107381.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "破镜重圆",
+        "ABO",
+        "现代",
+        "HE"
+      ]
+    },
+    {
+      "id": "1871666805638955041",
+      "title": "刀尖舔蜜",
+      "cover": "images/works/f-1871666805638955041.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1702890261980245.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "都市",
+        "暗恋",
+        "HE"
+      ]
+    },
+    {
+      "id": "1722442762554441784",
+      "title": "这位alpha身残志坚·第一季",
+      "cover": "images/works/f-1722442762554441784.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/166331038070979.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "ABO",
+        "搞笑",
+        "星际",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "1645011713457651762",
+      "title": "炮灰为王",
+      "cover": "images/works/f-1645011713457651762.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1648203707638142.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "穿越",
+        "系统",
+        "纯爱"
+      ]
+    },
+    {
+      "id": "1934294352301916303",
+      "title": "医生说我只能吃软饭·第一季",
+      "cover": "images/works/f-1934294352301916303.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1712638362587884.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "现代",
+        "重生",
+        "电竞"
+      ]
+    },
+    {
+      "id": "1758517343924781132",
+      "title": "超级可爱",
+      "cover": "images/works/f-1758517343924781132.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1674126331858803.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "沙雕",
+        "先婚后爱",
+        "ABO",
+        "星际"
+      ]
+    },
+    {
+      "id": "1882789529690046563",
+      "title": "猫咪的玫瑰",
+      "cover": "images/works/f-1882789529690046563.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1703308804804735.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "未来",
+        "星际",
+        "甜宠"
+      ]
+    },
+    {
+      "id": "1832713307690106945",
+      "title": "重生之真不挖煤",
+      "cover": "images/works/f-1832713307690106945.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1688985403396716.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "重生",
+        "甜宠",
+        "正剧",
+        "现代"
+      ]
+    },
+    {
+      "id": "1876522309116756026",
+      "title": "结婚对象带孩子跑了",
+      "cover": "images/works/f-1876522309116756026.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1736688108547516.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "ABO",
+        "都市",
+        "先婚后爱"
+      ]
+    },
+    {
+      "id": "2069403049792634966",
+      "title": "木偶综合症",
+      "cover": "images/works/f-2069403049792634966.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1746706921903208.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "纯爱",
+        "生子",
+        "都市",
+        "HE"
+      ]
+    },
+    {
+      "id": "1812267721467887665",
+      "title": "唇间",
+      "cover": "images/works/f-1812267721467887665.jpg",
+      "srcCover": "https://img.kilamanbo.com/h5/1711345699441444.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
+      "tags": [
+        "都市",
+        "治愈",
+        "现代",
+        "HE"
+      ]
+    }
+  ],
+  "group": {
+    "name": "广播剧交流圈",
+    "cover": "images/works/group.jpg",
+    "srcCover": "https://img.kilamanbo.com/group/2022-05-05/f605fe83f65331654fc9549dcd5c696a.JPG?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center"
+  }
+}
