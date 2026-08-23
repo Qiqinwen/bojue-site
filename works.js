@@ -110,23 +110,6 @@
     ensure();
   }
 
-  function addJumpButton() {
-    if (document.getElementById("works-jump")) return;
-    var btn = document.createElement("a");
-    btn.id = "works-jump";
-    btn.href = "#work";
-    btn.textContent = "View Works \u2193";
-    btn.addEventListener("click", function (e) {
-      e.preventDefault();
-      var w = document.getElementById("work");
-      if (w) {
-        try { w.scrollIntoView({ behavior: "smooth", block: "start" }); }
-        catch (err) { w.scrollIntoView(); }
-      }
-    });
-    document.body.appendChild(btn);
-  }
-
   function initDiag() {
     if (location.search.indexOf("diag=1") < 0) return;
     if (document.getElementById("diag")) return;
@@ -198,13 +181,24 @@
     if (dots) dots.style.display = "none";
     render();
     bind();
-    addJumpButton();
     initDiag();
   }
 
   function bind() {
     var wheel = document.querySelector(".wheel");
     if (!wheel) return;
+
+    // Robust jump: any "#work" link scrolls via JS (WKWebView anchor nav can fail).
+    document.addEventListener("click", function (e) {
+      var a = e.target && e.target.closest ? e.target.closest('a[href="#work"]') : null;
+      if (!a) return;
+      e.preventDefault();
+      var w = document.getElementById("work");
+      if (w) {
+        try { w.scrollIntoView({ behavior: "smooth", block: "start" }); }
+        catch (err) { w.scrollIntoView(); }
+      }
+    }, true);
 
     var wheelAcc = 0;
     wheel.addEventListener("wheel", function (e) {
@@ -276,7 +270,6 @@
     .catch(function (e) {
       var workEl = document.getElementById("work");
       if (workEl) workEl.innerHTML = '<div class="works-page"><p class="works-about">Works failed to load (works.json missing?)</p></div>';
-      addJumpButton();
       initDiag();
     });
 })();
