@@ -26,7 +26,8 @@
         "原创",
         "架空"
       ],
-      "studio": "七宝月晗工作室"
+      "studio": "七宝月晗工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2252338707795279988"
     },
     {
       "id": "2242428156659106041",
@@ -39,7 +40,8 @@
         "现代",
         "治愈"
       ],
-      "studio": "龙猫的家"
+      "studio": "龙猫的家",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2242428156659106041"
     },
     {
       "id": "2216403291955265690",
@@ -51,7 +53,8 @@
         "未来",
         "原创"
       ],
-      "studio": "桉桉不是安安-scc7000"
+      "studio": "桉桉不是安安-scc7000",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2216403291955265690"
     },
     {
       "id": "2082851477159674148",
@@ -62,7 +65,8 @@
         "纯爱",
         "前世今生"
       ],
-      "studio": "浪子江湖配音社LZJH"
+      "studio": "浪子江湖配音社LZJH",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2082851477159674148"
     },
     {
       "id": "2229651724170166370",
@@ -74,7 +78,8 @@
         "全一期",
         "重生"
       ],
-      "studio": "音纪SoundEra"
+      "studio": "音纪SoundEra",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2229651724170166370"
     },
     {
       "id": "2220569268498464892",
@@ -85,7 +90,8 @@
         "纯爱",
         "现代"
       ],
-      "studio": "知醒"
+      "studio": "知醒",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2220569268498464892"
     },
     {
       "id": "2219275641528778829",
@@ -97,7 +103,8 @@
         "全一期",
         "BE"
       ],
-      "studio": "Winter黎霜"
+      "studio": "Winter黎霜",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2219275641528778829"
     },
     {
       "id": "2218867692650102815",
@@ -110,7 +117,8 @@
         "BE",
         "HE"
       ],
-      "studio": "桉桉不是安安-scc7000"
+      "studio": "桉桉不是安安-scc7000",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2218867692650102815"
     },
     {
       "id": "2089325990034538627",
@@ -122,7 +130,8 @@
         "BE",
         "现代"
       ],
-      "studio": "桉桉不是安安-scc7000"
+      "studio": "桉桉不是安安-scc7000",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2089325990034538627"
     },
     {
       "id": "2203340196169121971",
@@ -135,7 +144,8 @@
         "BE",
         "现代"
       ],
-      "studio": "【时光聆声】工作室"
+      "studio": "【时光聆声】工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2203340196169121971"
     },
     {
       "id": "2196029779579240652",
@@ -146,7 +156,8 @@
         "纯爱",
         "全一期"
       ],
-      "studio": "尘江月落工作室"
+      "studio": "尘江月落工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2196029779579240652"
     },
     {
       "id": "2178946418310381630",
@@ -159,7 +170,8 @@
         "原创",
         "现代"
       ],
-      "studio": "撒星星工作室"
+      "studio": "撒星星工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2178946418310381630"
     },
     {
       "id": "2049095340610552211",
@@ -172,7 +184,8 @@
         "校园",
         "甜宠"
       ],
-      "studio": "醉声工作室"
+      "studio": "醉声工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2049095340610552211"
     }
   ],
   "records": [
@@ -186,7 +199,8 @@
         "原创音乐",
         "古风歌曲"
       ],
-      "studio": "桉桉不是安安-scc7000"
+      "studio": "桉桉不是安安-scc7000",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2218868130736767018"
     },
     {
       "id": "2198172616072626331",
@@ -196,7 +210,8 @@
       "tags": [
         "翻唱"
       ],
-      "studio": "尘江月落工作室"
+      "studio": "尘江月落工作室",
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2198172616072626331"
     }
   ],
   "favorites": [
@@ -209,7 +224,8 @@
         "甜宠",
         "现代",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1503862835954843733"
     },
     {
       "id": "1723356203314053159",
@@ -221,7 +237,8 @@
         "现代",
         "HE",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1723356203314053159"
     },
     {
       "id": "2195128381907927121",
@@ -231,14 +248,16 @@
       "tags": [
         "有声书",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2195128381907927121"
     },
     {
       "id": "1917264411836285054",
       "title": "梦里相遇（广播剧《向导是不是重生的》第二季主题曲）",
       "cover": "images/works/f-1917264411836285054.jpg",
       "srcCover": "https://img.kilamanbo.com/h5/d21d30fc6c1e95fe740291be98424f10.jpg?x-oss-process=image/resize,m_mfit,h_400,w_400,limit_0/crop,w_400,h_400,g_center",
-      "tags": []
+      "tags": [],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1917264411836285054"
     },
     {
       "id": "2069873254222266552",
@@ -248,7 +267,8 @@
       "tags": [
         "有声书",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2069873254222266552"
     },
     {
       "id": "1682721779719602251",
@@ -260,7 +280,8 @@
         "ABO",
         "现代",
         "HE"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1682721779719602251"
     },
     {
       "id": "1871666805638955041",
@@ -272,7 +293,8 @@
         "都市",
         "暗恋",
         "HE"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1871666805638955041"
     },
     {
       "id": "1722442762554441784",
@@ -284,7 +306,8 @@
         "搞笑",
         "星际",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1722442762554441784"
     },
     {
       "id": "1645011713457651762",
@@ -295,7 +318,8 @@
         "穿越",
         "系统",
         "纯爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1645011713457651762"
     },
     {
       "id": "1934294352301916303",
@@ -307,7 +331,8 @@
         "现代",
         "重生",
         "电竞"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1934294352301916303"
     },
     {
       "id": "1758517343924781132",
@@ -319,7 +344,8 @@
         "先婚后爱",
         "ABO",
         "星际"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1758517343924781132"
     },
     {
       "id": "1882789529690046563",
@@ -331,7 +357,8 @@
         "未来",
         "星际",
         "甜宠"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1882789529690046563"
     },
     {
       "id": "1832713307690106945",
@@ -343,7 +370,8 @@
         "甜宠",
         "正剧",
         "现代"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1832713307690106945"
     },
     {
       "id": "1876522309116756026",
@@ -355,7 +383,8 @@
         "ABO",
         "都市",
         "先婚后爱"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1876522309116756026"
     },
     {
       "id": "2069403049792634966",
@@ -367,7 +396,8 @@
         "生子",
         "都市",
         "HE"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=2069403049792634966"
     },
     {
       "id": "1812267721467887665",
@@ -379,7 +409,8 @@
         "治愈",
         "现代",
         "HE"
-      ]
+      ],
+      "playUrl": "https://manbo.hongdoulive.com/Activecard/radioplay?id=1812267721467887665"
     }
   ],
   "group": {
