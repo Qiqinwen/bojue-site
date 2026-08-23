@@ -124,6 +124,26 @@
   letter-spacing: 0.02em;
 }
 
+#works-jump {
+  position: fixed;
+  right: 16px;
+  bottom: 78px;
+  z-index: 2147483600;
+  display: none;
+  align-items: center;
+  gap: 6px;
+  padding: 11px 16px;
+  border-radius: 999px;
+  background: #1f49c4;
+  color: #fff;
+  font: 500 13px/1 system-ui, sans-serif;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(20, 40, 120, 0.35);
+}
+@media (max-width: 760px) {
+  #works-jump { display: inline-flex; }
+}
+
 /* The template's scroll-snap fights the works gallery on mobile (some browsers
  * treat even proximity as mandatory). Disable it completely for free scrolling. */
 html { scroll-snap-type: none !important; overflow-x: hidden; }
