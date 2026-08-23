@@ -1,7 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1920" role="img" aria-labelledby="title">
-  <title id="title">伯爵</title>
-  <g fill="#F8F8F8" font-family="'Noto Serif SC','Songti SC','Source Han Serif SC','SimSun',serif" font-size="620" text-anchor="middle">
-    <text x="500" y="700">伯</text>
-    <text x="500" y="1620">爵</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <text x="256" y="352" font-family="Georgia, 'Times New Roman', 'Noto Serif SC', serif" font-size="330" font-weight="700" text-anchor="middle" fill="#8FA8F5">B</text>
+  <path d="M150 420 q26 -16 52 0 q26 16 52 0 q26 -16 52 0 q26 16 52 0" fill="none" stroke="#8FA8F5" stroke-width="12" stroke-linecap="round"/>
 </svg>
