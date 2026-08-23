@@ -37,7 +37,7 @@
 <script src="landing-liquid.js?v=20260815a" defer></script>
 <script src="case/dim-media.js?v=20260814a" defer></script>
 <script src="phone-mockup.js?v=20260816a" defer></script>
-<link rel="stylesheet" href="works.css?v=3">
+<link rel="stylesheet" href="works.css?v=4">
 <style>
   :root {
     --ui-text: rgba(67, 60, 52, 0.90);
@@ -109,7 +109,7 @@
   * { box-sizing: border-box; }
   html { height: 100%; }
   body {
-    margin: 0; min-height: 100%; overflow-x: hidden;
+    margin: 0; min-height: 100%;
     background: var(--page-bg);
     transition: background 0.6s ease;
   }
@@ -434,7 +434,7 @@
   }
 
   /* ---------------- 滚动内容:作品区(整屏分页) ---------------- */
-  html { scroll-snap-type: y mandatory; }
+  html { scroll-snap-type: y mandatory; overflow-x: hidden; }
   .page { position: relative; z-index: 1; pointer-events: none; }
   .hero-space { height: 100vh; height: 100lvh; pointer-events: none; scroll-snap-align: start; }
 
