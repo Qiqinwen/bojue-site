@@ -37,7 +37,7 @@
 <script src="landing-liquid.js?v=20260815a" defer></script>
 <script src="case/dim-media.js?v=20260814a" defer></script>
 <script src="phone-mockup.js?v=20260816a" defer></script>
-<link rel="stylesheet" href="works.css?v=6">
+<link rel="stylesheet" href="works.css?v=7">
 <style>
   :root {
     --ui-text: rgba(67, 60, 52, 0.90);
@@ -167,7 +167,7 @@
     position: fixed; left: 0; top: 0; width: 100%; height: 100vh; height: 100lvh;
     display: none; background: var(--page-bg);
   }
-  #landingLiquid { z-index: 0; touch-action: pan-y; cursor: crosshair; }
+  #landingLiquid { z-index: 0; touch-action: auto; cursor: crosshair; }
   #landingPopEffects { z-index: 1; pointer-events: none; background: transparent; }
   body.hero-liquid #landingLiquid,
   body.hero-liquid #landingPopEffects { display: block; }
@@ -4682,6 +4682,6 @@ requestAnimationFrame(update);
 <!-- Site-wide custom cursor (shared, drop-in). Reads window.CURSOR_LABELS for
      the per-project rotating pills; see cursor.js. -->
 <script src="cursor.js?v=20260815a" defer></script>
-<script src="works.js?v=2" defer></script>
+<script src="works.js?v=3" defer></script>
 </body>
 </html>
