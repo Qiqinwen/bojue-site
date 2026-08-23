@@ -140,8 +140,8 @@
     if (!workEl || !works) return;
     PROFILE_URL = works.profileUrl || "";
     items = [];
-    (works.dramas || []).forEach(function (d) { items.push({ id: d.id, title: d.title, cover: d.cover, tags: d.tags, cat: "Radio Drama" }); });
-    (works.records || []).forEach(function (r) { items.push({ id: r.id, title: r.title, cover: r.cover, tags: r.tags, cat: "Record" }); });
+    (works.dramas || []).forEach(function (d) { items.push({ id: d.id, title: d.title, cover: d.cover, tags: d.tags, cat: "Radio Drama", playUrl: d.playUrl }); });
+    (works.records || []).forEach(function (r) { items.push({ id: r.id, title: r.title, cover: r.cover, tags: r.tags, cat: "Record", playUrl: r.playUrl }); });
     if (!items.length) return;
 
     workEl.innerHTML =
@@ -167,7 +167,7 @@
       var card = document.createElement("div");
       card.className = "wheel-card";
       card.innerHTML =
-        '<a class="wheel-card__link" href="' + esc(PROFILE_URL) + '" target="_blank" rel="noopener" draggable="false">' +
+        '<a class="wheel-card__link" href="' + esc(it.playUrl || PROFILE_URL) + '" target="_blank" rel="noopener" draggable="false">' +
           '<div class="wheel-card__cover"><img src="' + esc(it.cover) + '" alt="' + esc(it.title) + '" loading="lazy" draggable="false">' +
             '<span class="wheel-card__badge">' + esc(it.cat) + "</span></div>" +
           '<div class="wheel-card__body"><h3 class="wheel-card__title">' + esc(it.title) + "</h3>" +
