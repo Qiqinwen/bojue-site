@@ -163,6 +163,7 @@
     metaIndex = document.getElementById("wheelIndex");
     metaCat = document.getElementById("wheelCat");
 
+    renderCards();
     var dots = document.getElementById("workDots");
     if (dots) dots.style.display = "none";
     render();
