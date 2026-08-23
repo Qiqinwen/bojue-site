@@ -39,7 +39,11 @@
 
   // ---- Pre-paint: decide + apply immediately (this runs from <head>) ----
   if (!root.getAttribute('data-theme')) {
-    root.setAttribute('data-theme', saved() || byTime());
+    var isMobile = window.matchMedia && (
+      window.matchMedia('(max-width: 760px)').matches ||
+      window.matchMedia('(pointer: coarse)').matches
+    );
+    root.setAttribute('data-theme', saved() || (isMobile ? 'light' : byTime()));
   }
 
   function apply(theme, persist) {
