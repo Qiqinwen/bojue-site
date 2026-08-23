@@ -146,7 +146,7 @@
 
 /* The template's scroll-snap fights the works gallery on mobile (some browsers
  * treat even proximity as mandatory). Disable it completely for free scrolling. */
-html { scroll-snap-type: none !important; overflow-x: hidden; }
+html { scroll-snap-type: none !important; overflow-x: clip; }
 
 /* ---- Half-wheel carousel (radio dramas left, records right) ---- */
 .works-page--wheel { padding-bottom: 80px; }
