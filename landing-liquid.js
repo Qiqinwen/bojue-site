@@ -1068,7 +1068,9 @@
     };
     state.preview = { id: MAX_SHAPES + 1, x: start.x, y: start.y, radius: 0.001 };
     canvas.classList.add('is-drawing');
-    canvas.setPointerCapture(event.pointerId);
+    // WebKit (iOS Safari / WeChat) blocks touch scrolling when pointer capture is
+    // taken on pointerdown; keep capture for mouse/pen only so touch can scroll.
+    if (event.pointerType !== 'touch') canvas.setPointerCapture(event.pointerId);
   });
 
   canvas.addEventListener('pointermove', (event) => {
