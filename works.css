@@ -116,6 +116,10 @@
 
 .site-footer a { pointer-events: auto; color: inherit; }
 
+/* The template's mandatory scroll-snap fights the tall works gallery on mobile;
+ * proximity keeps the hero snap feel without dragging the page back up. */
+html { scroll-snap-type: y proximity !important; }
+
 /* ---- Half-wheel carousel (radio dramas left, records right) ---- */
 .works-page--wheel { padding-bottom: 80px; }
 .works-page--wheel .works-about { margin-bottom: 8px; }
